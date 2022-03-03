@@ -13,21 +13,6 @@
     }
 }
 
-.page-headline{
-    text-align: center;
-    z-index: 1;
-
-    &__sub{
-        color: $white;
-        font-weight: bold;
-        margin-bottom: 8px;
-    }
-
-    &__main{
-        color: $white;
-        font-weight: bold;
-    }
-}
 
 .sns-link{
     display: flex;
@@ -122,8 +107,4 @@
     &--brown {
         background-color: $brown;
     }
-}
-
-.required{
-    color: $red;
 }
